@@ -1,0 +1,21 @@
+Neural networks are computing systems inspired by biological brains. They consist of layers of interconnected nodes that process information by passing signals between them.
+
+Machine learning is a subset of AI where systems learn from data to improve their performance without being explicitly programmed for each task.
+
+Gradient descent is an optimization algorithm used to train neural networks. It adjusts weights by moving in the direction that reduces the loss function.
+
+Transformers are a neural network architecture that uses attention to weigh the importance of different words in a sequence when making predictions.
+
+Overfitting happens when a model learns the training data too well, including noise, and performs poorly on new unseen data.
+
+BERT (Bidirectional Encoder Representations from Transformers) is a language model that reads text in both directions to understand context better.
+
+Reinforcement learning is a type of machine learning where an agent learns by taking actions in an environment and receiving rewards or penalties.
+
+A loss function measures how wrong a model's predictions are. The goal of training is to minimize this value.
+
+Tokenization is the process of splitting text into smaller units called tokens before feeding text into a language model.
+
+Fine-tuning is the process of taking a pre-trained model and continuing to train it on a smaller, specific dataset to adapt it to a particular task.
+
+RAG (Retrieval Augmented Generation) combines document search with language model generation so the model can answer questions from your own documents.

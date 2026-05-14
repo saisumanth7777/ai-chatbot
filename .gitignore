@@ -1,0 +1,7 @@
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+phase2_llm/chat_history.json
+.DS_Store

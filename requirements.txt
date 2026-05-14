@@ -1,0 +1,30 @@
+# ── Core ──────────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0             # loads ANTHROPIC_API_KEY from .env
+
+# ── Phase 1: Generative AI (GAN) ─────────────────────────────────────────────
+torch>=2.2.0                     # PyTorch — build & train the GAN locally
+numpy>=1.26.0                    # numerical arrays
+
+# ── Phase 1 + 4: Anthropic API (replaces OpenAI) ─────────────────────────────
+anthropic>=0.27.0                # Claude API — text generation & chat
+
+# ── Phase 2: LLMs + NLP Pipeline ─────────────────────────────────────────────
+transformers>=4.40.0             # Hugging Face: T5, BART, BERT
+spacy>=3.7.0                     # NLP: tokenization, NER, lemmatization
+sentencepiece>=0.2.0             # tokenizer required by T5/BART
+torch>=2.2.0                     # already listed above
+
+# ── Phase 3: ML Model Development ────────────────────────────────────────────
+scikit-learn>=1.4.0              # intent classifier + evaluation metrics
+
+# ── Phase 4: LangChain + Prompt Engineering ───────────────────────────────────
+langchain>=0.2.0                 # chain prompts, memory, agents
+langchain-anthropic>=0.1.0       # LangChain ↔ Anthropic bridge
+
+# ── Phase 5: Vector Database ──────────────────────────────────────────────────
+chromadb>=0.5.0                  # local vector DB — no account needed
+sentence-transformers>=3.0.0     # converts text → semantic embedding vectors
+
+# ── Phase 6: Chatbot Web App ──────────────────────────────────────────────────
+fastapi>=0.111.0                 # REST API framework
+uvicorn>=0.29.0                  # ASGI server to run FastAPI
